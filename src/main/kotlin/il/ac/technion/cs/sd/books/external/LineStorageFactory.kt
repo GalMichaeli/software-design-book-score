@@ -7,6 +7,6 @@ interface LineStorageFactory {
      * Otherwise creates a new instance of LineStorage, associates it with
      * `fileName` and returns it.
      */
-    fun open(fileName: String) LineStorage
-    
+    fun open(fileName: String): LineStorage
+
 }

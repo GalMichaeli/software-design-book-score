@@ -10,4 +10,5 @@ interface LineStorage {
 
     /** Returns the total number of lines in the file */
     fun numberOfLines(): Int
+    
 }
