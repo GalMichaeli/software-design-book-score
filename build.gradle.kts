@@ -11,8 +11,11 @@ repositories {
     mavenCentral()
 }
 
+val kotlinguiceVersion = "3.0.0"
+
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("dev.misfitlabs.kotlinguice4:kotlin-guice:$kotlinguiceVersion")
 }
 
 publishing {
