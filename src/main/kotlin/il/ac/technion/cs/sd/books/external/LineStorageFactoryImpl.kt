@@ -1,6 +1,6 @@
 package il.ac.technion.cs.sd.books.external
 
-class LineStorageFactoryImpl : LineStorageFactory {
+internal class LineStorageFactoryImpl : LineStorageFactory {
     
     private class LineStorageImpl : LineStorage {
         
